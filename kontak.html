@@ -4,33 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontak - MAN 2 Model Mataram</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; padding-bottom: 70px; }
-        header { background-color: #5cb85c; color: white; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; }
-        .logo-sekolah { display: flex; align-items: center; gap: 15px; }
-        .logo-sekolah img { width: 60px; height: auto; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-        nav a:hover { text-decoration: underline; }
-        section { padding: 30px; }
-        form { display: flex; flex-direction: column; max-width: 500px; gap: 15px; margin-top: 20px; }
-        input, textarea, button { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; }
-        button { background-color: #5cb85c; color: white; border: none; cursor: pointer; font-weight: bold; }
-        button:hover { background-color: #4cae4c; }
-        footer { background-color: #333; color: white; text-align: center; padding: 15px; position: fixed; bottom: 0; width: 100%; }
-    </style>
 </head>
 <body>
 
     <header>
         <div class="logo-sekolah">
-            <img src="cropped-unnamed-removebg-preview-7.png" alt="Logo MAN 2 Model Mataram">
+            <img src="488-MAN_2_MATARAM.png" alt="Logo MAN 2 Model Mataram" width="80">
             <h1>MAN 2 Model Mataram</h1>
         </div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="jurusan.html">Jurusan</a>
+            <a href="index.html">Home</a> |
+            <a href="jurusan.html">Jurusan</a> |
             <a href="kontak.html">Kontak</a>
         </nav>
+        <hr>
     </header>
 
     <section>
@@ -38,21 +25,28 @@
         <p>Punya pertanyaan terkait pendaftaran atau informasi sekolah? Silakan isi form di bawah ini, dan admin kami akan segera membalasnya.</p>
         
         <form action="#" method="post">
-            <label for="namaLengkap">Nama Lengkap:</label>
-            <input type="text" id="namaLengkap" name="namaLengkap" placeholder="Masukkan nama Anda..." required>
+            <p>
+                <label for="namaLengkap">Nama Lengkap:</label><br>
+                <input type="text" id="namaLengkap" name="namaLengkap" placeholder="Masukkan nama Anda..." required>
+            </p>
 
-            <label for="emailAktif">Email Aktif:</label>
-            <input type="email" id="emailAktif" name="emailAktif" placeholder="contoh@email.com" required>
+            <p>
+                <label for="emailAktif">Email Aktif:</label><br>
+                <input type="email" id="emailAktif" name="emailAktif" placeholder="contoh@email.com" required>
+            </p>
 
-            <label for="pesan">Pesan Anda:</label>
-            <textarea id="pesan" name="pesan" rows="6" placeholder="Tuliskan pertanyaan atau pesan Anda di sini..." required></textarea>
+            <p>
+                <label for="pesan">Pesan Anda:</label><br>
+                <textarea id="pesan" name="pesan" rows="6" cols="40" placeholder="Tuliskan pertanyaan atau pesan Anda di sini..." required></textarea>
+            </p>
 
             <button type="submit">Kirim Pesan</button>
         </form>
     </section>
 
+    <hr>
     <footer>
-        &copy; 2026 MAN 2 Model Mataram. Hak Cipta Dilindungi.
+        <p>&copy; 2026 MAN 2 Model Mataram. Hak Cipta Dilindungi.</p>
     </footer>
 
 </body>
